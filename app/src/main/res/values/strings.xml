@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Tea Chooser</string>
+    <string name="oolong">Oolong</string>
+    <string name="matcha">Matcha</string>
+    <string name="chai">Chai</string>
+    <string name="hoji">Hoji Cha</string>
+    <string name="gemmai">Gemmai Cha</string>
+    <string name="sencha">Sen Cha</string>
+    <string name="eng">English Breakfast</string>
+    <string name="irish">Irish Breakfast</string>
 </resources>
