@@ -20,7 +20,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         addBtn.setOnClickListener {
-
+            val newTea = addTeaText.text.toString()
+            if(newTea.isNotEmpty()) {
+                teaList.add(newTea)
+                addTeaText.text.clear()
+                println(teaList)
+            }
         }
     }
 }
